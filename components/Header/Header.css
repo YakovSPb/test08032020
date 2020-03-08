@@ -1,0 +1,32 @@
+.header-container{
+	max-width: 230px;
+	width: 100%;
+	background: #fff;
+	border-radius: 10px;
+	margin-left: 30px;
+}
+
+.header-element__image{
+	width: 20px;
+	height: 20px;
+}
+.header-list{
+	list-style-type: none;
+	padding-left: 0;
+	padding: 17px;
+}
+.header-element{
+	background: #f3f8fb;
+	padding: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.header-element__close{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: lightgray;
+	font-size: 10px;
+	cursor: pointer;
+}
